@@ -2,10 +2,7 @@ body {
     background-color: #99BCAF;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-}
+.header {}
 
 .picture {
     width: 350px;
@@ -13,4 +10,9 @@ body {
     border-radius: 50%;
     border: 2px solid black;
 
+}
+
+.logo-js {
+    width: 64px;
+    height: 64px;
 }
