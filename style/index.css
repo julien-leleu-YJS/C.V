@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#99BCAF, #99A6BD, #BDB099);
+    background: linear-gradient(#99BCAF, #99A6BD);
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
     width: 300px;
     border-radius: 50%;
     border: 2px solid white;
-    box-shadow: 1px 1px 25px white;
+    box-shadow: 1px 10px 110px white;
     margin-left: 100px;
     margin-top: 50px;
 }
@@ -37,22 +37,26 @@ body {
 
 .title {
     font-size: 5rem;
-    text-shadow: 0px 1px 10px white;
+    text-shadow: 0px 1px 20px white;
+    color: white;
 }
 
 .second-title {
     font-size: 3rem;
     text-shadow: 0px 1px 10px white;
+    color: white;
 }
 
 .third-title {
     font-size: 2rem;
     text-shadow: 0px 1px 10px white;
+    color: white;
 }
 
 .fourth-title {
-    font-size: 1.5rem;
-    text-shadow: 0px 1px 10px white;
+    font-size: 1.8rem;
+    text-shadow: 2px 8px 15px white;
+    color: white;
 }
 
 .logo-container {
@@ -62,6 +66,7 @@ body {
     height: 0 auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo-canva {
@@ -208,6 +213,19 @@ body {
     text-shadow: 3px 3px 6px white;
 
 }
+
+.localise {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    text-shadow: 3px 3px 6px white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
 
 .github {
     margin-top: 40px;
