@@ -24,6 +24,8 @@ body {
     margin-top: 50px;
 }
 
+
+
 .title-container {
     align-self: center;
     text-align: center;
@@ -238,14 +240,27 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 575.98px) {
+
+@media screen and (max-width: 600px) {
     .picture {
         display: none;
     }
 
+    .photo-main {
+        display: run-in;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 25px white;
+    }
+
     .header {
         height: 60px;
+        display: flex;
         justify-content: space-evenly;
+        width: 0% auto;
+
     }
 
     .logo-container {
@@ -257,13 +272,14 @@ body {
         flex-direction: row;
         text-align: center;
         align-items: center;
-        width: 70px;
+        width: 90px;
         height: 20px;
         justify-content: space-evenly;
     }
 
     .title {
         font-size: 1.2rem;
+
     }
 
     .second-title {
@@ -278,6 +294,7 @@ body {
     .fourth-title {
         font-size: 1rem;
         margin-right: 55px;
+
     }
 
     .dark-container {
@@ -285,8 +302,9 @@ body {
     }
 
     .title-section {
-        font-size: 0.8rem;
-        padding: 3px;
+        font-size: 0.7rem;
+        padding: 2px;
+        text-decoration: underline white;
     }
 
     .light-container {
@@ -343,4 +361,64 @@ body {
     }
 }
 
-@media screen and (max-width: 575.98px) {}
+@media (min-width: 601px) and (max-width: 1125px) {
+    .picture {
+        height: 150px;
+        width: 200;
+
+    }
+
+    .header {
+        height: 250px;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .title-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .second-title {
+        font-size: 1.5rem;
+    }
+
+    .third-title {
+        font-size: 1rem;
+    }
+
+    .fourth-title {
+        font-size: 0.8rem;
+        width: 50px;
+        padding: 15px;
+
+    }
+
+    .dark-container {
+        font-size: 0.9rem;
+    }
+
+    .light-container {
+        font-size: 0.9rem;
+    }
+
+    .title-section {
+        font-size: 1rem;
+        padding: 2px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .github {
+        margin-bottom: 10px;
+    }
+}
