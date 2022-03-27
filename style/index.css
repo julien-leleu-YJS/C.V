@@ -19,7 +19,7 @@ body {
     width: 300px;
     border-radius: 50%;
     border: 2px solid white;
-    box-shadow: 1px 10px 110px white;
+    box-shadow: 2px 2px 20px white;
     margin-left: 100px;
     margin-top: 50px;
 }
@@ -66,7 +66,6 @@ body {
     height: 0 auto;
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo-canva {
@@ -98,7 +97,8 @@ body {
 .groupe-logolink {
     display: flex;
     align-items: center;
-    background-color: black;
+    background: linear-gradient(#99BCAF, #99A6BD);
+    border: 1px solid white;
     text-shadow: 5px 1px 5px white;
     font-family: 'Reenie Beanie', cursive;
     font-size: 1.2rem;
@@ -211,7 +211,6 @@ body {
 
 .mail {
     text-shadow: 3px 3px 6px white;
-
 }
 
 .localise {
@@ -238,3 +237,110 @@ body {
     height: 64px;
     align-items: center;
 }
+
+@media screen and (max-width: 575.98px) {
+    .picture {
+        display: none;
+    }
+
+    .header {
+        height: 60px;
+        justify-content: space-evenly;
+    }
+
+    .logo-container {
+        width: 115px;
+        height: 20px;
+    }
+
+    .title-container {
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 20px;
+        justify-content: space-evenly;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .second-title {
+        font-size: 1rem;
+        margin-left: 45px;
+    }
+
+    .third-title {
+        display: none;
+    }
+
+    .fourth-title {
+        font-size: 1rem;
+        margin-right: 55px;
+    }
+
+    .dark-container {
+        font-size: 0.5rem;
+    }
+
+    .title-section {
+        font-size: 0.8rem;
+        padding: 3px;
+    }
+
+    .light-container {
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .groupe-logolink {
+        display: flex;
+        justify-content: center;
+        width: 345px;
+        background: linear-gradient(#99BCAF, #99A6BD);
+        border: 1px solid white;
+    }
+
+    .footer {
+        border-bottom: 3px solid white;
+        box-shadow: 4px 100px 100px 10px white;
+        height: auto;
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .github {
+        margin: 15px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo-git {
+        width: 42px;
+        height: 42px;
+    }
+
+    .maps {
+        height: 22px;
+        width: 22px;
+    }
+
+    .gmail {
+        font-size: 1.3rem;
+    }
+
+    .localise {
+        font-size: 0.8rem;
+    }
+
+    .link-cv {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {}
