@@ -249,7 +249,7 @@ body {
 
 
 /* ici le format phone*/
-@media (min-width: 375px) and (max-width: 719px) {
+@media (min-width: 295px) and (max-width: 767px) {
     .picture {
         display: none;
     }
@@ -363,7 +363,7 @@ body {
 }
 
 /* ici le format tablette*/
-@media (min-width: 720px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1080px) {
     .picture {
         height: 150px;
         width: 200;
