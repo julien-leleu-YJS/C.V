@@ -131,12 +131,13 @@
         align-items: center;
         background: linear-gradient(#99BCAF, #99A6BD);
         border: 1px solid whitesmoke;
-        text-shadow: 5px 1px 5px white;
+        font-weight: bold;
         font-family: 'Reenie Beanie', cursive;
         font-size: 0.8rem;
         border-radius: 50px;
         box-shadow: 1px 1px 15px white;
         width: 100%;
+
         margin-bottom: 10px;
     }
 
@@ -167,7 +168,7 @@
         display: flex;
         align-items: center;
         font-family: 'Reenie Beanie', cursive;
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         padding-bottom: 5%;
         padding-top: 5%;
     }
