@@ -2,6 +2,8 @@
     body {
         background: #b0bacc;
         font-family: 'Playfair Display', serif;
+        color: black;
+
 
 
     }
@@ -83,25 +85,25 @@
     }
 
     .afpa-logo {
-        height: 27px;
-        width: 45px;
-        margin-top: 5px;
+        height: 30px;
+        width: 49px;
+        margin-top: 10%;
     }
 
     .oclock-logo {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
         box-shadow: 1px 1px 15px white;
     }
 
     .dark-container {
         font-weight: bold;
         background-color: black;
-        color: #b0bacc;
+        color: #bbc3d3;
         width: 100%;
 
         align-self: center;
-        font-size: 0.6rem;
+        font-size: 1rem;
         padding-bottom: 10%;
         box-shadow: 0px 1px 15px white;
         text-align: center;
@@ -111,34 +113,43 @@
         border-top: 2px solid whitesmoke;
         border-bottom: 2px solid whitesmoke;
         line-height: 20px;
-        text-shadow: 0px 1px 10px white;
+        text-shadow: 0px 0.5px 25px white;
 
     }
 
     .title-chapitre {
-        font-size: 0.7rem;
-        font-weight: bold;
+        font-size: 1rem;
+        font-weight: lighter;
         margin-top: 8%;
     }
 
     .title-section {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         font-weight: bolder;
         margin-bottom: 3%;
         margin-top: 8%;
+
+    }
+
+    .title-section-light {
+        color: black;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 3%;
+        margin-top: 15%;
     }
 
     .light-container {
         align-items: center;
         text-align: center;
         display: flex;
-
+        font-weight: lighter;
         flex-direction: column;
         align-content: center;
         justify-content: space-evenly;
         line-height: 20px;
-        text-shadow: 0px 1px 10px white;
-        font-size: 0.7rem;
+        text-shadow: 10px 10px 30px rgb(199, 199, 250);
+        font-size: 1rem;
     }
 
     .groupe-logolink {
@@ -161,16 +172,33 @@
         display: flex;
         justify-content: center;
         font-size: 1.2rem;
-        margin-right: 5%;
+        margin-left: 20%;
+    }
+
+    .container-link-youtube {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+
+        font-weight: bold;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 0.8rem;
+        border-radius: 50px;
+
+        width: 50%;
+        margin-left: 25%;
+
+        margin-top: 3%;
     }
 
     .link-youtube {
         display: flex;
         justify-content: center;
         text-align: center;
-        width: 100%;
-        font-size: 1.2rem;
-        margin-right: 20%;
+
+        font-size: 1.3rem;
+
     }
 
     .link-groove {
@@ -185,6 +213,7 @@
 
 
     .footer {
+
         flex-wrap: wrap;
         display: flex;
         align-items: center;
@@ -243,11 +272,12 @@
     }
 
     .link-cv {
-        text-shadow: 5px 1px 5px white;
+
         font-family: 'Reenie Beanie', cursive;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: bold;
         align-items: center;
+        text-decoration: none;
     }
 
     .download-cv {
