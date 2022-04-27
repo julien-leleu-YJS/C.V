@@ -94,6 +94,21 @@
         height: 35px;
         width: 35px;
         box-shadow: 1px 1px 15px white;
+        margin-top: 10%;
+    }
+
+    .opquast-logo {
+        height: 35px;
+        width: 35px;
+        box-shadow: 1px 1px 15px white;
+        margin-top: 10%;
+    }
+
+    .opquast-certif {
+        height: 35px;
+        width: 35px;
+        box-shadow: 1px 1px 15px white;
+        margin-top: 3%;
     }
 
     .dark-container {

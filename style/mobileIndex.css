@@ -80,9 +80,23 @@ body {
 }
 
 .oclock-logo {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     box-shadow: 1px 1px 15px white;
+}
+
+.opquast-logo {
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 15px white;
+    margin-top: 10%;
+}
+
+.opquast-certif {
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 15px white;
+    margin-top: 3%;
 }
 
 .dark-container {

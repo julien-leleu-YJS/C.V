@@ -88,13 +88,28 @@
     .afpa-logo {
         height: 47px;
         width: 85px;
-        margin-top: 1%;
+        margin-top: 5%;
     }
 
     .oclock-logo {
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         box-shadow: 1px 1px 15px white;
+        margin-top: 5%;
+    }
+
+    .opquast-logo {
+        height: 50px;
+        width: 50px;
+        box-shadow: 1px 1px 15px white;
+        margin-top: 5%;
+    }
+
+    .opquast-certif {
+        height: 50px;
+        width: 50px;
+        box-shadow: 1px 1px 15px white;
+        margin-top: 1%;
     }
 
     .dark-container {
@@ -119,13 +134,13 @@
 
     .title-chapitre {
         font-size: 1.7rem;
-        font-weight: 500;
+        font-weight: bold;
         margin-top: 15px;
     }
 
     .title-section {
         font-size: 1.5rem;
-        font-weight: 500;
+        font-weight: bold;
         margin-bottom: 1%;
     }
 
