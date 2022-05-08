@@ -14,7 +14,7 @@
         justify-content: space-evenly;
         background-color: black;
         box-shadow: 1px 1px 25px white;
-
+        height: 180px;
 
 
 
@@ -22,20 +22,20 @@
 
     .picture {
         display: block;
-        height: 200px;
-        width: 250;
+        height: 150px;
+        width: 100;
         border-radius: 50%;
         border: 2px solid white;
         box-shadow: 2px 2px 20px white;
         margin-bottom: 5%;
-        margin-top: 5%;
+        margin-top: 1%;
 
     }
 
     .title-container {
 
         padding: 4px;
-        font-size: 2rem;
+        font-size: 1.5rem;
         align-self: center;
         text-align: center;
         display: flex;
@@ -47,7 +47,7 @@
     }
 
     .title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         text-shadow: 0px 1px 20px white;
         color: white;
     }
@@ -55,6 +55,8 @@
     .second-title {
         text-shadow: 0px 1px 10px white;
         color: white;
+        font-size: 1.2rem;
+
     }
 
     .third-title {
@@ -65,6 +67,8 @@
     .fourth-title {
         color: #c6d0e4;
         text-shadow: 2px 2px 30px white;
+        font-size: 1.1rem;
+
     }
 
 
@@ -89,20 +93,26 @@
         height: 47px;
         width: 85px;
         margin-top: 5%;
+        display: none;
+    }
+
+    .afpa-container {
+        display: none;
     }
 
     .oclock-logo {
         height: 50px;
         width: 50px;
         box-shadow: 1px 1px 15px white;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .opquast-logo {
         height: 50px;
         width: 50px;
         box-shadow: 1px 1px 15px white;
-        margin-top: 5%;
+        margin-top: 3%;
+
     }
 
     .opquast-certif {
@@ -112,44 +122,57 @@
         margin-top: 1%;
     }
 
+    .logo-youtube {
+        border-radius: 50%;
+        border: 2px solid black;
+        background-color: black;
+    }
+
+    .vimeo-logo {
+        border-radius: 50%;
+        border: 2px solid black;
+        background-color: black;
+    }
+
     .dark-container {
         font-weight: bold;
         background-color: black;
-        color: #c6d0e4;
-        width: 100%;
-
-        align-self: center;
-        font-size: 1.5rem;
+        font-size: 0.9rem;
         box-shadow: 0px 1px 30px white;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
         border-top: 2px solid whitesmoke;
         border-bottom: 2px solid whitesmoke;
-        line-height: 45px;
+        line-height: 35px;
         text-shadow: 0px 1px 40px white;
+        padding-bottom: 2%;
+    }
 
+
+
+    .projets-etudes {
+        margin-top: 2%;
     }
 
     .title-chapitre {
-        font-size: 1.7rem;
-        font-weight: bold;
-        margin-top: 15px;
+        font-size: 0.9rem;
+        margin-top: 1%;
+        color: black;
     }
 
     .title-section {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
-        margin-bottom: 1%;
+        margin-bottom: 0.5%;
+        margin-top: 2%;
     }
 
     .title-section-light {
-        color: black;
-        font-size: 1.8rem;
-        margin-bottom: 3%;
-        margin-top: 15%;
-        font-weight: 500;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0.5%;
+        margin-top: 2%;
+
     }
 
     .light-container {
@@ -159,9 +182,9 @@
         flex-direction: column;
         align-content: center;
         justify-content: space-evenly;
-        line-height: 45px;
+        line-height: 35px;
         text-shadow: 1px 1px 35px whitesmoke;
-        font-size: 1.7rem;
+        font-size: 0.9rem;
         font-weight: 500;
     }
 
@@ -169,14 +192,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(#99BCAF, #99A6BD);
+        background: black;
         border: 1px solid whitesmoke;
-        font-weight: bold;
-        font-family: 'Reenie Beanie', cursive;
+        font-family: 'Playfair Display', serif;
         border-radius: 50px;
         box-shadow: 0px 0.5px 15px white;
         width: 100%;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        height: 23px;
 
 
     }
@@ -186,43 +210,36 @@
         justify-content: center;
         text-align: center;
         width: 100%;
-        font-size: 1.7rem;
+        font-size: 0.8rem;
         margin-right: 20%;
     }
 
     .container-link-youtube {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         background: black;
 
-        font-weight: bold;
-        font-family: 'Reenie Beanie', cursive;
-
         border-radius: 50px;
-
         width: 50%;
         margin-left: 25%;
-
-        margin-top: 3%;
+        margin-top: 1%;
+        height: 23px;
+        box-shadow: 1px 1px 25px white;
     }
 
     .link-youtube {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-
-        font-size: 1.8rem;
+        font-size: 0.8rem;
+        font-family: 'Playfair Display', serif;
+        margin-right: 20%;
 
     }
 
     .link-groove {
-        display: flex;
-        justify-content: center;
-        text-align: center;
+
         width: 100%;
-        font-size: 1.7rem;
-        margin-right: 28%;
+        font-size: 0.8rem;
+        margin-right: 35%;
     }
 
 
@@ -237,6 +254,8 @@
         border-top: 2px solid whitesmoke;
         border-bottom: 2px solid whitesmoke;
         box-shadow: 1px 1px 25px white;
+        bottom: 0;
+        left: 0;
 
 
     }
@@ -246,14 +265,14 @@
         display: flex;
         align-items: center;
         font-family: 'Reenie Beanie', cursive;
-        font-size: 2rem;
-        padding-bottom: 5%;
-        padding-top: 5%;
+        font-size: 1.2rem;
+        padding-bottom: 3%;
+        padding-top: 3%;
     }
 
     .logo-gmail {
-        height: 38px;
-        width: 38px;
+        height: 28px;
+        width: 28px;
         box-shadow: 1px 1px 25px white;
         border-radius: 50px;
     }
@@ -279,25 +298,31 @@
 
     .logo-git {
         background-color: whitesmoke;
-        height: 58px;
-        width: 58px;
+        height: 40px;
+        width: 40px;
         box-shadow: 1px 1px 25px white;
 
     }
 
     .link-cv {
         text-shadow: 5px 1px 5px rgb(0, 0, 0);
-        font-family: 'Reenie Beanie', cursive;
-        font-size: 1.8rem;
-        font-weight: bold;
-        align-items: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 0.8rem;
+
     }
 
     .download-cv {
+        display: flex;
+        justify-content: center;
         border: 2px solid black;
+        align-items: center;
         text-align: center;
         background-color: black;
-        color: #99BCAF;
         border-radius: 10px;
+        width: 100%;
+        height: 23px;
+        box-shadow: 1px 1px 5px white;
+        margin-top: 20%;
+        margin-bottom: -3%;
     }
 }

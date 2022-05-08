@@ -77,6 +77,7 @@ body {
     height: 27px;
     width: 45px;
     margin-top: 10%;
+    display: none;
 }
 
 .oclock-logo {
@@ -99,6 +100,10 @@ body {
     margin-top: 3%;
 }
 
+.afpa-container {
+    display: none;
+}
+
 .dark-container {
     font-weight: bold;
     background-color: black;
@@ -115,7 +120,7 @@ body {
     justify-content: space-evenly;
     border-top: 2px solid whitesmoke;
     border-bottom: 2px solid whitesmoke;
-    line-height: 25px;
+    line-height: 18px;
     text-shadow: 0px 0.5px 15px white;
 
 }
@@ -128,8 +133,8 @@ body {
 
 .title-section {
     font-weight: bolder;
-    margin-top: 8%;
-    margin-bottom: 4%;
+    margin-top: 6%;
+    margin-bottom: 2%;
     font-size: 0.7rem;
     color: whitesmoke;
 
@@ -150,10 +155,10 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
-    line-height: 25px;
+    line-height: 18px;
     text-shadow: 0px 0.5px 15px white;
     font-size: 0.7rem;
-    font-weight: bold;
+
 }
 
 .groupe-logolink {
@@ -163,7 +168,7 @@ body {
     background: black;
 
     font-weight: bold;
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 0.8rem;
     border-radius: 50px;
     box-shadow: 1px 1px 10px white;
@@ -175,37 +180,33 @@ body {
 
 .container-link-youtube {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: black;
-
-    font-weight: bold;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 0.8rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7rem;
     border-radius: 50px;
-
+    box-shadow: 1px 1px 10px white;
     width: 99%;
-
+    font-weight: bold;
 
 
     margin-top: 3%;
 }
 
 .link-youtube {
-
-
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    margin-right: 30%;
     text-decoration: none;
 
 }
 
 .link-groove {
-    margin-left: 23%;
+    margin-left: 30%;
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     text-decoration: none;
 }
 
@@ -213,9 +214,9 @@ body {
     display: flex;
     justify-content: center;
     margin-left: 5%;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     text-decoration: none;
-    margin-left: 8%;
+    margin-left: 17%;
 }
 
 
@@ -280,8 +281,8 @@ body {
 
 .link-cv {
 
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7rem;
     font-weight: bold;
     align-items: center;
     text-decoration: none;
